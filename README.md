@@ -16,3 +16,9 @@ cd GNU-Octave-MacOSX && chmod +x octave_install.sh
 ```
 cd GNU-Octave-MacOSX && ./octave_install.sh
 ```
+
+## To run octave
+* Open your terminal and run the following command :
+```
+octave
+```
