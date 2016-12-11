@@ -8,7 +8,7 @@ tput sgr0
 
 ## Install Dependencies 
 tput setaf 2 && tput bold
-echo ">> [Octave Installer] $(tput setaf 3)- Install some dependencies :"
+echo "[Octave Installer] $(tput setaf 3)- Install some dependencies :"
 tput sgr0
 
 # Install Command line tools :
@@ -44,7 +44,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 
 tput setaf 2 && tput bold
-echo ">> [Octave Installer] $(tput setaf 3)- Install GNU Octave :"
+echo "[Octave Installer] $(tput setaf 3)- Install GNU Octave :"
 tput sgr0
 
 # tap the science formulae
